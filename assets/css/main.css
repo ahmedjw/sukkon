@@ -1401,6 +1401,114 @@ ol {
 }
 
 /*======================================
+	Blog CSS
+========================================*/
+.blog-section .single-blog {
+  margin-top: 30px;
+  overflow: hidden !important;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.164);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.164);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.blog-section .single-blog .blog-img {
+  overflow: hidden;
+}
+.blog-section .single-blog .blog-img a {
+  width: 100%;
+}
+.blog-section .single-blog .blog-img img {
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.blog-section .single-blog .blog-content {
+  padding: 30px;
+}
+.blog-section .single-blog .blog-content .category {
+  font-size: 14px;
+  color: #4caf50;
+  display: inline-block;
+  font-weight: 600;
+}
+.blog-section .single-blog .blog-content h4 {
+  display: block;
+  margin-top: 5px;
+  line-height: 25px;
+}
+.blog-section .single-blog .blog-content h4 a {
+  font-size: 19px;
+  color: #081828;
+  display: inline-block;
+}
+.blog-section .single-blog .blog-content p {
+  display: block;
+  margin-top: 20px;
+}
+.blog-section .single-blog .blog-content .autor {
+  position: relative;
+  padding-left: 62px;
+  margin-top: 30px;
+}
+.blog-section .single-blog .blog-content .autor .name {
+  color: #666;
+  display: inline-block;
+  margin-bottom: 1px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.blog-section .single-blog .blog-content .autor .meta-content {
+  margin-left: 4px;
+}
+
+.blog-section .single-blog .blog-content .autor .name {
+  color: #666;
+  display: inline-block;
+  margin-bottom: 1px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.blog-section .single-blog .blog-content .autor .meta-content li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+.blog-section .single-blog .blog-content .autor .meta-content li:last-child {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-section .single-blog .blog-content .autor .meta-content li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+.blog-section .single-blog .blog-content .autor img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.blog-section .single-blog .blog-content .autor .meta-content li a {
+  font-size: 13px;
+  font-weight: 500;
+  color: #888;
+}
+.blog-section .single-blog .blog-img img {
+  width: 100%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/*======================================
 	Start Header CSS
 ========================================*/
 .header {
@@ -2425,7 +2533,6 @@ ol {
 .section-title {
   text-align: center;
   margin-bottom: 80px;
-  padding: 0 300px;
   position: relative;
   z-index: 5;
 }
