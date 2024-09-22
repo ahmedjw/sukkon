@@ -1588,6 +1588,44 @@ ol {
   background-color: #f9f9f9;
 }
 /*======================================
+	logo CSS
+========================================*/
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
+  .client-logo-section {
+    padding: 40px 0;
+  }
+}
+@media (min-width: 33.75em) {
+  #tns1 {
+    width: calc(1050%);
+  }
+}
+#tns1 > .tns-item {
+  width: calc(4.7619%);
+  padding-right: 15px;
+}
+
+#tns1 > .tns-item {
+  font-size: 15px;
+}
+.client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo {
+  padding: 10px 20px;
+  text-align: center;
+  margin: auto;
+}
+.client-logo-section
+  .client-logo-wrapper
+  .client-logo-carousel
+  .client-logo
+  img {
+  max-width: 180px;
+  width: 50%;
+  opacity: 0.8;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+/*======================================
 	Blog CSS
 ========================================*/
 .blog-section .single-blog {
