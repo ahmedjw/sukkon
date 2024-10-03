@@ -1,3 +1,3 @@
 # sukkon
 sukkon landing page
-an html page that will convert to react
+initial version of landing page for sukkon app
